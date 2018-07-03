@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="zh-Hans">
+<html class="theme-next gemini use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="android," />
+  <meta name="keywords" content="android,ui," />
 
 
 
@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="Android ，React">
-<meta name="keywords" content="android">
+<meta name="description" content="不是不努力，只是不强求。">
+<meta name="keywords" content="android,ui">
 <meta property="og:type" content="article">
-<meta property="og:title" content="android">
+<meta property="og:title" content="Hexo主题实现多级分类显示">
 <meta property="og:url" content="http://yoursite.com/2018/04/22/android/index.html">
-<meta property="og:site_name" content="TRC_BLOG">
-<meta property="og:description" content="Android ，React">
+<meta property="og:site_name" content="技术博客">
+<meta property="og:description" content="不是不努力，只是不强求。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-04-22T11:33:53.634Z">
+<meta property="og:updated_time" content="2018-07-03T15:05:11.533Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="android">
-<meta name="twitter:description" content="Android ，React">
+<meta name="twitter:title" content="Hexo主题实现多级分类显示">
+<meta name="twitter:description" content="不是不努力，只是不强求。">
 
 
 
@@ -98,7 +98,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Muse',
+    scheme: 'Gemini',
     version: '5.1.4',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
@@ -126,7 +126,7 @@
 
 
 
-  <title>android | TRC_BLOG</title>
+  <title>Hexo主题实现多级分类显示 | 技术博客</title>
   
 
 
@@ -156,7 +156,7 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">TRC_BLOG</span>
+        <span class="site-title">技术博客</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -187,6 +187,26 @@
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
             首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/index.html" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/index.html" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
           </a>
         </li>
       
@@ -236,13 +256,13 @@
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/22/android/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="TianRongChuang">
+      <meta itemprop="name" content="田荣闯">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TRC_BLOG">
+      <meta itemprop="name" content="技术博客">
     </span>
 
     
@@ -250,7 +270,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">android</h1>
+          <h1 class="post-title" itemprop="name headline">Hexo主题实现多级分类显示</h1>
         
 
         <div class="post-meta">
@@ -272,6 +292,39 @@
             
           </span>
 
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/android/" itemprop="url" rel="index">
+                    <span itemprop="name">android</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/android/ui/" itemprop="url" rel="index">
+                    <span itemprop="name">ui</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -318,6 +371,8 @@
         <div class="post-tags">
           
             <a href="/tags/android/" rel="tag"># android</a>
+          
+            <a href="/tags/ui/" rel="tag"># ui</a>
           
         </div>
       
@@ -395,8 +450,8 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
-              <p class="site-author-name" itemprop="name">TianRongChuang</p>
-              <p class="site-description motion-element" itemprop="description">Android ，React</p>
+              <p class="site-author-name" itemprop="name">田荣闯</p>
+              <p class="site-description motion-element" itemprop="description">不是不努力，只是不强求。</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -413,15 +468,24 @@
             
 
             
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
 
             
               
               
               <div class="site-state-item site-state-tags">
-                
+                <a href="/tags/index.html">
                   <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">标签</span>
-                
+                </a>
               </div>
             
 
@@ -460,7 +524,7 @@
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">TianRongChuang</span>
+  <span class="author" itemprop="copyrightHolder">田荣闯</span>
 
   
 </div>
@@ -474,7 +538,7 @@
 
 
 
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
 
 
 
@@ -573,6 +637,13 @@
 
   
   
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
 
   
   <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
